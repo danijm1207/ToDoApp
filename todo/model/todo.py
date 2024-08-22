@@ -25,8 +25,13 @@ class TodoBook:
 
     def add_todo(self, title: str, description: str) ->:
         new_id = len(self.todos) + 1
+        new_todo = Todo(new_id, title, description)
+        self.todos[new_id] = new_todo
 
-        return
+        return new_id
+
+    def pending_todos
+        return self.tags
 
 
 
